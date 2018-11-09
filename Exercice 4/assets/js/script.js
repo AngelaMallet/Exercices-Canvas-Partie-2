@@ -87,7 +87,7 @@ ctx.stroke();
 
 // 2 first boucle
 ctx.beginPath();
-ctx.strokeStyle ="red";
+ctx.strokeStyle ="#ea4e1d";
 ctx.moveTo(180,150);
 ctx.quadraticCurveTo(560, -30, 145, 410);
 ctx.lineStyle
@@ -96,7 +96,7 @@ ctx.stroke();
 
 // 2 second boucle
 ctx.beginPath();
-ctx.strokeStyle ="red";
+ctx.strokeStyle ="#ea4e1d";
 ctx.moveTo(144,410);
 ctx.quadraticCurveTo(275, 380, 275, 390);
 ctx.lineStyle
@@ -155,7 +155,7 @@ ctx.lineTo(570,290);
 ctx.lineTo(570,264);
 ctx.closePath();
 ctx.fill();
-//forme bas gauche
+// //forme bas gauche
 ctx.beginPath();
 ctx.fillStyle="#878787"
 ctx.moveTo(568,294);
@@ -166,6 +166,7 @@ ctx.lineTo(550,335);
 ctx.lineTo(550,308);
 ctx.closePath();
 ctx.fill();
+
 //forme bas droit
 ctx.beginPath();
 ctx.fillStyle="#595656"
@@ -175,5 +176,39 @@ ctx.lineTo(625,335);
 ctx.lineTo(608,350);
 ctx.lineTo(590,335);
 ctx.lineTo(590,308);
+ctx.closePath();
+ctx.fill();
+
+//Petite forme gauche
+ctx.beginPath();
+ctx.fillStyle="#efefef"
+ctx.moveTo(634,225);
+ctx.lineTo(641,230);
+ctx.lineTo(641,240);
+ctx.lineTo(634,245);
+ctx.lineTo(627,240);
+ctx.lineTo(627,230);
+ctx.closePath();
+ctx.fill();
+//Petite forme gris foncé
+ctx.beginPath();
+ctx.fillStyle="#595656"
+ctx.moveTo(642,245);
+ctx.lineTo(649,250);
+ctx.lineTo(649,260);
+ctx.lineTo(642,265);
+ctx.lineTo(635,260);
+ctx.lineTo(635,250);
+ctx.closePath();
+ctx.fill();
+//Petite forme rouge
+ctx.beginPath();
+ctx.fillStyle="#ea4e1d"
+ctx.moveTo(650,225);
+ctx.lineTo(657,230);
+ctx.lineTo(657,240);
+ctx.lineTo(650,245);
+ctx.lineTo(643,240);
+ctx.lineTo(643,230);
 ctx.closePath();
 ctx.fill();
